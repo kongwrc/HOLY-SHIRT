@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: kanit;
+  src: url(font/MN-Thick.ttf);
+}
+@font-face {
+  font-family: mellow;
+  src: url(font/MN.ttf);
+}
+/* .navbar{
+  background: url(banner/banner.jpeg);
+  width: 100%;
+  height: 650px;
+} */
+#banner{
+  padding: 0px;
+}
+.name{
+  text-align: center;
+  margin: 30px 0px 0px;
+  font-family: mellow;
+  font-size: 36px;
+  font-weight: bold;
+  color: gray;
+}
+.name-1{
+  text-align: center;
+  font-family: mellow;
+  font-size: 60px;
+  font-weight: bold;
+  color: gray;
+  margin: 100px;
+}
+ul{
+
+  list-style: none;
+  margin: 10px;
+}
+li{
+  justify-content: space-between;
+  display: inline;
+  font-size: 28px;
+  padding: 16px;
+  font-family: kanit;
+  color: gray;
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
+navbar{
+  justify-content: center;
+  text-align: center;
+}
+.center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 30px 30px 30px;
+}
+.product{
+  width: 280px;
+  height: 260px;
+  margin: 30px;
+  box-shadow: 5px 5px rgba(0, 0, 0, .5);
+  border: rgba(0, 0, 0, .5) solid;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+}
+.product-name{  
+  margin: 30px;
+  font-size: 36px;
+  font-family: kanit;
+}
+.end-line {
+  border: 2px solid rgb(167, 167, 167);
+  margin: 120px 30% 0 30%;
+}
+.blockitem{
+  width: 250px;
+  height: 390px;
+  margin: 30px;
+  -webkit-box-shadow: 0 30px 50px rgba(0,0,0,.2);
+  box-shadow: 0 30px 50px rgba(0,0,0,.2);
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+.blockitem:hover{
+  background-color: rgba(240, 240, 240, 0.705);
+}
+button:hover{
+  background-color: rgb(21, 155, 21);
+}
+.itemname{
+  text-align: left;
+  margin: 0px 10px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: mellow;
+}
+.itemprice{
+  color: red;
+  text-align: right;
+  margin: 0px 10px;
+  font-weight: bold;
+  font-family: mellow;
+  font-size: 25px;
+}
+button{
+  border-radius: 10px;
+  border: none;
+  font-size: 24px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  padding: 10px 50px;
+  margin-top: 10px;
+  font-family: mellow;
+}
+
+.footer {
+  background: url(./src/image/TeenMeowNubRalw.png);
+  background-size: cover;
+  background-position: bottom right;
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+  margin-top: 100px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer li {
+  padding: 0 10px;
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul a:hover {
+  opacity: 1;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 58px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer .list-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .footer .caption {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: #aaa;
+  margin-bottom: 0;
+} */
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 0;
+}
